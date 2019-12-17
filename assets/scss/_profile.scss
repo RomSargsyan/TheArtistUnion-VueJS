@@ -1,0 +1,63 @@
+.public-page {
+  margin: 90px 0 60px;
+}
+
+.profile-description {
+  box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+  background-color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 0 auto 20px;
+  max-height: 200px;
+  overflow: scroll;
+  padding: 20px;
+  position: relative;
+  text-align: left;
+}
+
+.track-lists {
+  box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 0 auto 20px;
+  padding: 20px 10px;
+}
+
+.profile-description-title {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 auto 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.draftEditor-link {
+  color: #575f67;
+  cursor: pointer;
+  display: inline-block;
+  background: #e6f3ff;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.empty-state {
+  margin: 40px auto;
+}
+
+.empty-state > {
+  h4 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: avenir,sans-serif;
+    margin: 20px auto;
+    text-transform: uppercase;
+  }
+  h5 {
+    color: #6f7c82;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px auto;
+  }
+}

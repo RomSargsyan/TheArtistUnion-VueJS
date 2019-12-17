@@ -1,0 +1,87 @@
+#powerscore {
+  margin-bottom: 80px;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+@media (min-width: 768px){
+ .powerscore-step {
+    position: relative;
+  }
+}
+
+.powerscore-step {
+  hgroup {
+    margin: 60px auto 40px;
+  }
+
+  .title {
+    letter-spacing: 2px;
+    margin: 30px 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .subtitle {
+    color: #6f7c82;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 20px 0 10px;
+    text-align: center;
+  }
+
+}
+
+.rubberBand {
+  animation-name: rubberBand;
+}
+
+.animated.delay-2 {
+  animation-delay: 2s;
+}
+
+.btn {
+  border-width: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.btn.btn-default {
+  background-color: transparent;
+  border-color: #29272c;
+  color: #29272c;
+}
+
+@media (min-width: 768px){
+  .powerscore-step {
+    .animated {
+      a {
+        font-size: 24px !important;
+        padding: 20px 40px;
+        color: #fff;
+        &:hover {
+          background: #a916fe;
+          border-color: #a916fe;
+        }
+      }
+    }
+  }
+}
+
+.warning {
+  color: #6f7c82;
+  font-style: italic;
+  margin: 10px auto;
+  text-align: center;
+  font-weight: 300;
+}

@@ -1,0 +1,209 @@
+.side-banner {
+  box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 0 auto 20px;
+  padding: 20px 10px;
+  text-align: center;
+
+  h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  h4 {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  a {
+    font-weight: 600;
+  }
+
+  .side-banner-content {
+    padding: 10px 10px 0;
+    text-align: left;
+  }
+
+  .side-banner-youtube {
+    padding: 10px;
+  }
+
+  .app-image {
+    width: 80%;
+  }
+
+  .smiley {
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 8px 4px 0;
+  }
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.video-wrapper {
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 0
+  }
+}
+
+.track-fans {
+  box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 0 auto 20px;
+  padding: 20px;
+}
+
+.content-list-header {
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.content-list-header {
+  .content-list-header-title {
+    color: #29272c;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    &:hover {
+      color: #9013fe;
+    }
+  }
+}
+
+.user-list {
+  .user-list-item {
+    margin: 0 0 10px;
+    position: relative;
+
+    .user-avatar {
+      display: inline-block;
+      background-color: #ecf0f1;
+      margin: 0 10px 0 0;
+    }
+
+    .user-list-item-name {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 500;
+      max-width: calc(100% - 50px);
+      vertical-align: middle;
+
+      a {
+        color: #29272c;
+        &:hover {
+          color: #9013fe;
+        }
+      }
+
+      .user-list-item-subtitle {
+          display: block;
+          font-weight: 400;
+      }
+    }
+  }
+}
+
+.user-avatar-shadow {
+  box-shadow: 0 0 4px 0 rgba(41,39,44,.8);
+}
+
+.user-avatar-sm {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.user-avatar-md {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+
+.user-avatar-lg {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+}
+
+.truncate-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.profile-card {
+  box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  text-align: center;
+
+  .profile-card-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+
+  .profile-stats {
+    list-style-type: none;
+    margin: 10px auto 20px;
+    padding: 0;
+    text-align: center;
+    .profile-stat {
+      display: inline-block;
+      margin: 0 10px;
+
+      .profile-stat-label {
+          font-weight: 300;
+      }
+
+      .profile-stat-value {
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .profile-social-links {
+    list-style-type: none;
+    margin: 20px auto 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .profile-messenger {
+    margin-top: 20px;
+  }
+}
+
+.fa-soundcloud {
+  background-size: cover;
+  display: inline-block;
+  margin: 0 3px;
+  vertical-align: middle;
+  color: black;
+
+  &:hover {
+    color: #9013fe;
+  }
+}

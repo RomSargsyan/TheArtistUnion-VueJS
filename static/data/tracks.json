@@ -1,0 +1,175 @@
+{
+  "items": [{
+      "name": "Gabe & M-22 - Good To Be Loved",
+      "id": "1",
+      "featured": true,
+      "genre": "#Dance & EDM",
+      "userName": "ArtistUnion"
+    },
+    {
+      "name": "Infamous (AUExclusive No. 13)",
+      "id": "2",
+      "featured": true,
+      "genre": "#Dubstep",
+      "userName": "Mix Union Artist by Mix Feed"
+    },
+    {
+      "name": "Dex Atro - Sweet Moment",
+      "id": "3",
+      "featured": false,
+      "genre": "#Deep House",
+      "userName": "Deep N Heat"
+    },
+    {
+      "name": "James Lauda - Nasty Girl (Preview)",
+      "id": "4",
+      "featured": false,
+      "genre": "#Deep House",
+      "userName": "Poxos"
+    },
+    {
+      "name": "Rosy Bones - Make Me Laugh (Preview)",
+      "id": "5",
+      "featured": false,
+      "genre": "#Dubstep",
+      "userName": "Petros"
+    },
+    {
+      "name": "Gabe & M-22 - Good To Be Loved",
+      "id": "6",
+      "featured": false,
+      "genre": "#Ambien",
+      "userName": "Hakob"
+    },
+    {
+      "name": "Infamous (AUExclusive No. 13)",
+      "id": "7",
+      "featured": false,
+      "genre": "#Deep House",
+      "userName": "Martiros"
+    },
+    {
+      "name": "Dex Atro - Sweet Moment",
+      "id": "8",
+      "featured": false,
+      "genre": "#Ambien",
+      "userName": "Alex De Nero"
+    },
+    {
+      "name": "James Lauda - Nasty Girl (Preview)",
+      "id": "9",
+      "featured": false,
+      "genre": "#Ambien",
+      "userName": "Nelson Valdes"
+    },
+    {
+      "name": "Rosy Bones - Make Me Laugh (Preview)",
+      "id": "10",
+      "featured": false,
+      "genre": "#Dubstep",
+      "userName": "Harey Kayne"
+    },
+    {
+      "name": "Gabe & M-22 - Good To Be Loved",
+      "id": "11",
+      "featured": false,
+      "genre": "#TRAP",
+      "userName": "Gor Vardanyan"
+    },
+    {
+      "name": "Infamous (AUExclusive No. 13)",
+      "id": "12",
+      "featured": false,
+      "genre": "#Dance & EDM",
+      "userName": "Tatul"
+    },
+    {
+      "name": "Dex Atro - Sweet Moment",
+      "id": "13",
+      "featured": false,
+      "genre": "#TRAP",
+      "userName": "Alex De Nero"
+    },
+    {
+      "name": "James Lauda - Nasty Girl (Preview)",
+      "id": "14",
+      "featured": false,
+      "genre": "#Dance & EDM",
+      "userName": "Mix Abbate Music"
+    },
+    {
+      "name": "Rosy Bones - Make Me Laugh (Preview)",
+      "id": "15",
+      "featured": false,
+      "genre": "#TRAP",
+      "userName": "Andre Mariner"
+    },
+    {
+      "name": "Gabe & M-22 - Good To Be Loved",
+      "id": "16",
+      "featured": false,
+      "genre": "#TRAP",
+      "userName": "Mix Abbate Music"
+    },
+    {
+      "name": "Infamous (AUExclusive No. 13)",
+      "id": "17",
+      "featured": false,
+      "genre": "#Ambien",
+      "userName": "Delle Ali"
+    },
+    {
+      "name": "Dex Atro - Sweet Moment",
+      "id": "18",
+      "featured": false,
+      "genre": "#Dance & EDM",
+      "userName": "Delle Ali"
+    },
+    {
+      "name": "James Lauda - Nasty Girl (Preview)",
+      "id": "19",
+      "featured": false,
+      "genre": "#Dance & EDM",
+      "userName": "Delle Ali"
+    },
+    {
+      "name": "Rosy Bones - Make Me Laugh (Preview)",
+      "id": "20",
+      "featured": false,
+      "genre": "#Dance & EDM",
+      "userName": "Andre Mariner"
+    }
+  ],
+  "genre": [
+      { "name": "Dance & EDM" },
+      { "name": "Hip-hop & Rap" },
+      { "name": "Dubstep" },
+      { "name": "TRAP" },
+      { "name": "Electronic)" },
+      { "name": "House" },
+      { "name": "Deep House" },
+      { "name": "Drum & Bass" },
+      { "name": "Techno" },
+      { "name": "Trance" },
+      { "name": "Future Bass" },
+      { "name": "Tech House" },
+      { "name": "Dance y EDM" },
+      { "name": "Pop" },
+      { "name": "Dancehall" },
+      { "name": "Hip Hop" },
+      { "name": "R&B & Soul" },
+      { "name": "Ambien" },
+      { "name": "Electrónica" },
+      { "name": "Dance e EDM" },
+      { "name": "Progressive House" },
+      { "name": "Eletrônica " },
+      { "name": "Future House" },
+      { "name": "Moombahton" },
+      { "name": "Riddim" },
+      { "name": "Disco" },
+      { "name": "Vinahouse" },
+      { "name": "Reggaeton" },
+      { "name": "Chill" },
+      { "name": "World" }
+  ]
+}

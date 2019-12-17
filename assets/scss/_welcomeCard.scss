@@ -1,0 +1,44 @@
+.welcome-card {
+  box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  text-align: center;
+
+  .welcome-card-title {
+    font-family: helvetica, sans-serif;
+    margin: 10px 0;
+    font-weight: 700;
+  }
+
+  .welcome-card-subtitle {
+    color: #6f7c82;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 10px;
+  }
+
+  .welcome-card-callout {
+    color: #29272c;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 20px auto 0;
+  }
+
+  .welcome-card-artist-list {
+    margin: 20px 0 0;
+  }
+
+  .swiper-slide {
+    .img-fluid {
+      box-shadow: 0 0 4px 0 rgba(41,39,44,.8);
+      height: 120px;
+      width: 120px;
+      border-radius: 4px;
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,269 @@
+.navbar {
+  border-top: 1px solid rgba(41,39,44,.25);
+}
+
+.text-violet {
+  color: #9013fe !important;
+  font-size: 12px;
+
+  &:hover {
+    color: #9013fe !important;
+    border-color: #9013fe !important;
+  }
+}
+
+.search-box {
+  margin-top: 4px;
+  margin-bottom: 8px;
+
+  i {
+    position: absolute;
+    right: -415px;
+    top: 10px;
+    font-size: 16px;
+    color: black;
+    &:hover {
+      cursor: pointer;
+      color: #9017fe;
+    }
+  }
+
+  input {
+    width: 420px;
+    border-color: black;
+    &:hover {
+      cursor: pointer;
+      border-color: #9017fe;
+    }
+  }
+}
+
+@media(max-width: 1200px){
+  .search-box {
+    i {
+      right: -200px;
+    }
+    input {
+      width: 210px;
+    }
+  }
+}
+
+@media(max-width: 1000px){
+  .search-box {
+    i {
+      right: 0;
+    }
+    input {
+      width: 10px;
+    }
+  }
+}
+
+strong {
+  font-weight: 600;
+}
+
+.navbar {
+  .navbar-nav {
+    .nav-item {
+      a {
+        color: #29272c;
+        font-size: 14px;
+        font-weight: 500;
+        &:hover {
+          cursor: pointer;
+          color: #9017fe;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.collapse.openNavbar {
+  display: block;
+  text-align: center;
+
+  .search-box {
+    input {
+      width: 100%;
+    }
+  }
+}
+
+.form-control {
+  height: calc(1.5em + .5em + 2px);
+}
+
+.highlight {
+  background-color: #9013fe;
+  border: 2px solid #9013fe;
+  border-radius: 4px;
+  color: #fff !important;
+  font-size: 14px !important;
+  &:hover {
+    background: #a916fe;
+    border-color: #a916fe;
+  }
+}
+
+.nav-item-dropdown {
+  .nav-link {
+    &::after {
+      content: none;
+    }
+  }
+  .highlight {
+    padding: inherit;
+  }
+}
+
+.navbar-nav > {
+  li {
+    a {
+      border-top-right-radius: 4px;
+      border-top-left-radius: 4px;
+      min-width: 0;
+      margin-top: 0;
+    }
+  }
+}
+
+.navbar-nav {
+  .nav-item {
+    button {
+      padding: 8px 18px;
+    }
+  }
+}
+
+.dropdown-menu-item {
+  li {
+    a {
+      display: block;
+      clear: both;
+      line-height: 1.428571429;
+      white-space: nowrap;
+      background-color: transparent;
+      color: #29272c;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 6px 18px;
+    }
+  }
+}
+
+.divider {
+  height: 1px;
+  overflow: hidden;
+  background-color: #ecf0f1;
+  margin: 8px 16px;
+}
+
+.social-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  bottom: 2px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.dropdown-header {
+  color: #6f7c82;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 5px 10px;
+  display: block;
+  line-height: 1.428571429;
+  white-space: nowrap;
+}
+
+.highlight-soundcloud {
+  margin: 0 0 6px !important;
+}
+
+.dropdown-menu-item > {
+  .highlight-feature > {
+    a {
+      background-color: #9013fe;
+      border-radius: 4px;
+      color: #fff !important;
+      margin: 0 6px;
+      padding: 6px 12px;
+    }
+  }
+}
+
+.dropdown-item, .dropdown-menu-item {
+  background: #fff;
+  padding: 0;
+}
+
+.dropdown-modal-item {
+  left: 215px;
+}
+
+.artists-dropdown {
+  span {
+    font-size: 20px;
+  }
+  ul {
+    width: -webkit-fill-available;
+    left: -8px;
+  }
+}
+
+.nav-item {
+  span {
+    font-family: proxima nova, arial, sans-serif;
+  }
+}
+
+.highlight  {
+  span {
+    color: #fff;
+  }
+  .dropdown-toggle::after {
+    color: #fff;
+  }
+}
+
+.highlight-facebook > {
+  a {
+    background-color: #3B5998 !important;
+    border-radius: 4px;
+    color: #fff !important;
+    margin: 2px 6px;
+    padding: 6px 8px 4px 4px !important;
+  }
+}
+
+.highlight-linkedin > {
+  a {
+    background-color: #0077B5 !important;
+    border-radius: 4px;
+    color: #fff !important;
+    margin: 2px 6px;
+    padding: 6px 8px 4px 4px !important;
+  }
+}
+
+.highlight-instagram > {
+  a {
+    background-color: #517FA4 !important;
+    border-radius: 4px;
+    color: #fff !important;
+    margin: 2px 6px;
+    padding: 6px 8px 4px 4px !important;
+  }
+}
+
+
+.no-background > {
+  a {
+    padding: 6px 10px !important;
+  }
+}

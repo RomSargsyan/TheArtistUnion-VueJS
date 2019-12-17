@@ -1,0 +1,142 @@
+#search {
+  margin-bottom: 60px;
+  margin-top: 90px;
+}
+
+#hits-container {
+  box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+}
+
+.content-page > {
+  h1 {
+    letter-spacing: 2px;
+    margin: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+#search {
+  #genre, #sample {
+    display: none;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .toggle-item {
+    color: #6f7c82;
+    cursor: pointer;
+    display: inline-block;
+    margin: 4px;
+  }
+}
+
+#search-box {
+  height: auto;
+  background-color: transparent;
+  border: 1px solid #29272c;
+  border-radius: 4px;
+  color: #29272c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 auto 30px;
+  padding: 10px 40px;
+}
+
+@media (min-width: 768px) {
+  #search-box {
+    font-size: 24px;
+    line-height: 32px;
+
+    &:hover {
+      border-color: #9013fe;
+    }
+  }
+  #search {
+    #genre, #sample {
+      display: block;
+      text-align: left;
+      .toggle-item {
+        display: block;
+        margin: 4px 0;
+      }
+    }
+  }
+}
+
+#genre, #sample {
+  .toggle-header {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 10px 0;
+    text-transform: uppercase;
+  }
+}
+
+ .toggle-label {
+   cursor: pointer;
+   font-size: 12px;
+   font-weight: 600;
+   line-height: 16px;
+   &:hover {
+     color: #29272c;
+     cursor: pointer;
+   }
+ }
+
+ .show-more {
+   color: #6f7c82;
+   cursor: pointer;
+   font-size: 10px;
+   font-weight: 600;
+   margin-top: 10px;
+   text-transform: uppercase;
+   &:hover {
+    color: #29272c;
+    cursor: pointer;
+   }
+ }
+
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=radio], input[type=checkbox] {
+  margin: 4px 10px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+
+#pagination-container {
+  margin: 20px 0;
+  text-align: center;
+
+  .ais-pagination {
+    list-style-type: none;
+  }
+
+  .pagination-item {
+    cursor: pointer;
+    display: inline-block;
+  }
+}
+
+.pagination-item > {
+  a {
+    color: #29272c;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 6px;
+
+    &:hover {
+      color: #9013fe;
+    }
+  }
+}

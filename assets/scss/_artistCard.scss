@@ -1,0 +1,44 @@
+.artist-card {
+  box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+  background-color: rgba(143,44,250,.8);
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 auto 20px;
+  padding: 20px;
+  text-align: center;
+
+  &:hover {
+    background: #a916fe;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .row {
+    margin: 10px auto 0;
+    max-width: 640px;
+  }
+
+  h3 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 10px auto 0;
+    text-transform: uppercase;
+  }
+  
+  img {
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    margin: 0 8px;
+    vertical-align: middle;
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}

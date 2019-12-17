@@ -1,0 +1,74 @@
+.track-card {
+  box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 0 auto 20px;
+  padding: 20px;
+}
+
+.track-thumbnail {
+  border-radius: 4px;
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+
+.track-card .track-thumbnail {
+  margin: 0;
+}
+
+.track-thumbnail-shadow {
+  box-shadow: 0 0 4px 0 rgba(41,39,44,.8);
+}
+
+.track-thumbnail-lg {
+  height: 160px;
+  width: 160px;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.track-card {
+  .track-body {
+    width: calc(100% - 360px);
+    margin: 0 20px;
+  }
+}
+
+.track-cards-actions {
+  width: 160px;
+  display: inline-block;
+  margin: 20px 0;
+  text-align: center;
+  vertical-align: top;
+}
+
+.track-card {
+  .track-body {
+    .player-control {
+      * {
+        height: 60px;
+        width: 60px;
+      }
+    }
+  }
+}
+
+.track-body-compact-artist {
+  .strong-label {
+    color: #9013fe;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .followers {
+      color: #29272c;
+      display: block;
+      font-size: 12px;
+      font-weight: 400;
+  }
+}

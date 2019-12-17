@@ -1,0 +1,162 @@
+.artists-page {
+  box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 40px auto;
+  padding: 20px 0 0;
+  text-align: center;
+  h1 {
+    vertical-align: middle;
+  }
+
+  h2 {
+    color: #6f7c82;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px auto;
+  }
+
+ .login-dropdown {
+    display: inline-block;
+    padding: 4px;
+  }
+
+  .artists-page-banner {
+    margin: 40px auto;
+  }
+
+  .artists-page-hero {
+    border-bottom: 2px solid #f7f7f7;
+    border-top: 2px solid #f7f7f7;
+    color: #6f7c82;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 40px 20px;
+  }
+
+  .artists-page-banner {
+    h3 {
+      color: #29272c;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+  }
+
+  .artists-page-hero-text {
+    background-color: #fdf574;
+    color: #29272c;
+    padding: 3px 6px;
+  }
+
+  .artists-page-hero {
+    .artists-page-hero-text {
+      color: #29272c;
+      font-weight: 600;
+    }
+
+    .artists-page-social-icons {
+      .social-icons {
+        color: #29272c;
+        height: 30px;
+        width: 30px;
+        margin: 20px 5px 0;
+        &:hover {
+          color: rgba(143,44,250,.8);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .artists-page-panes {
+    .row {
+      margin: 0 auto;
+    }
+
+    .artists-page-img-container {
+      background-color: rgba(143,44,250,.8);
+      padding: 20px;
+      .download-gate {
+        height: 332px;
+        width: 240px;
+      }
+      .messenger {
+        height: 447px;
+        width: 217px;
+      }
+    }
+
+    .artists-page-img {
+      background-size: cover;
+      display: block;
+      margin: 20px auto;
+      vertical-align: middle;
+    }
+
+    .artists-page-img {
+      .artists-page-img-download-gate {
+        height: 332px;
+        width: 240px;
+      }
+    }
+
+    .artists-page-benefit {
+      padding: 20px;
+      text-align: center;
+
+      h2 {
+        color: #29272c;
+        font-weight: 500;
+      }
+
+      p {
+        color: #6f7c82;
+        font-size: 16px;
+      }
+    }
+  }
+  .animated {
+    img {
+      height: 80px;
+      width: 80px;
+      background-size: contain;
+      display: block;
+      margin: 0 auto 30px;
+    }
+  }
+
+}
+
+@media (min-width: 768px) {
+  .artists-page {
+    h1 {
+      font-size: 36px;
+      line-height: 48px;
+    }
+
+    h2 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    .artists-page-hero {
+      font-size: 24px;
+      line-height: 36px;
+      padding: 60px 30px;
+
+      .artists-page-social-icons {
+        .social-icons {
+          margin: 20px 10px 0;
+        }
+      }
+    }
+
+    .artists-page-panes {
+      .artists-page-benefit {
+        padding: 100px 40px;
+        text-align: left;
+      }
+    }
+  }
+}

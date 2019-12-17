@@ -1,0 +1,181 @@
+.dashboard {
+  box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 20px auto 60px;
+  min-width: 680px;
+
+  .dashboard-nav {
+    .dashboard-nav-title {
+      border-bottom: 1px solid #ecf0f1;
+      font-size: 16px;
+      letter-spacing: 1px;
+      padding: 20px;
+    }
+
+    .tabs {
+      margin: 0 20px;
+    }
+
+    .nav-tabs > {
+      li {
+        width: 100%;
+        padding: 11px 0;
+      }
+    }
+    .nav-tabs > {
+      li > {
+        a {
+          line-height: 18px;
+          padding: 0;
+          font-size: 12px;
+          border: none;
+          letter-spacing: normal;
+        }
+      }
+    }
+  }
+
+  .dashboard-content {
+    border-left: 1px solid #ecf0f1;
+    min-height: 337px;
+    padding: 20px;
+  }
+
+  .dashboard-summary {
+    h4 {
+      color: #6f7c82;
+      font-size: 14px;
+      margin: 10px 0;
+    }
+    p {
+      color: #29272c;
+      margin: 10px 0;
+      font-size: 30px;
+    }
+  }
+  .dashboard-main-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 10px 0;
+  }
+
+  .referral-code {
+    code {
+      background-color: #ecf0f1;
+      color: #9013fe;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+    .referral-code-share {
+      margin: 20px auto;
+    }
+  }
+  .dashboard-email-img {
+    eight: 80px;
+    width: 80px;
+    background-size: contain;
+    display: block;
+    margin: 0 auto 30px;
+  }
+}
+
+.dashboard-content-title {
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 0 0 20px;
+}
+
+.dashboard-form-subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 40px 10px 0;
+}
+
+.dashboard-form-row {
+  margin-top: 10px;
+  margin-bottom: 40px;
+
+  .dashboard-form-inline {
+    height: 72px;
+    vertical-align: middle;
+  }
+
+  .dashboard-form-label {
+    color: #6f7c82;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+}
+
+.social-accounts {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.social-accounts > {
+  li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+  }
+}
+
+.social-account {
+  display: block;
+  font-size: 12px;
+  .social-account-link {
+    color: #29272c;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+    &:hover {
+      color: #9013fe !important;
+    }
+  }
+  .social-account-icon {
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+}
+
+.checkbox {
+  label {
+    color: #29272c;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+}
+
+.account-facebook-tab {
+  p {
+    color: #9013fe;
+  }
+}
+
+.btn.btn-danger {
+  border-color: #ef4d40;
+  color: #ef4d40 !important;
+}
+
+.pencil-hidden {
+  visibility: hidden;
+}
+
+.dashboard-form-inline:hover {
+  .pencil-hidden {
+    visibility: visible;
+    color: #9013fe;
+  }
+}
+
+.social-account-disconnect {
+  color: #ef4d40 !important;
+  font-size: 10px;
+}

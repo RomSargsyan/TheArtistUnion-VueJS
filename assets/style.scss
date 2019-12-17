@@ -1,0 +1,119 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-vue/src/index';
+
+@import "scss/header";
+@import "scss/welcomeCard";
+@import "scss/artistCard";
+@import "scss/content";
+@import "scss/sideBanner";
+@import "scss/charts";
+@import "scss/powerscore";
+@import "scss/submit";
+@import "scss/trackCard";
+@import "scss/profile";
+@import "scss/search";
+@import "scss/footer";
+@import "scss/playing";
+@import "scss/colors";
+@import "scss/artists";
+@import "scss/about";
+@import "scss/modal";
+@import "scss/auth";
+@import "scss/dashboard";
+@import "scss/posts";
+
+@font-face {
+  font-family: 'proxima nova';
+  src: url("~static/fonts/ProximaNova-Bold.woff");
+}
+
+@font-face {
+  font-family: 'avenir';
+  src: url("~static/fonts/ProximaNova-Regular.woff");;
+}
+
+@font-face {
+  font-family: 'helvetica';
+  src: url("~static/fonts/ProximaNova-Light.woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+  color: #29272c;
+  font-family: proxima nova, avenir, helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  min-height: calc(100% - 60px);
+  position: relative;
+  margin: 0;
+}
+
+h2, span {
+  font-family: helvetica, arial, sans-serif;
+}
+
+p {
+  font-family: avenir, arial, sans-serif;
+}
+
+::placeholder {
+  font-family: helvetica, sans-serif;
+}
+
+article, aside, details,
+figcaption,figure, footer,
+header, hgroup, main, menu,
+nav, section, summary {
+  display: block;
+}
+
+a {
+	color: $secondary-color;
+	cursor: pointer;
+	text-decoration: none;
+	&:hover {
+		color: $secondary-color;
+	}
+}
+
+#app {
+  margin-top: 80px;
+  height: 100%;
+}
+
+.open.dropdown-menu {
+  display: block;
+}
+
+ul, .pointer {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+
+@media(max-width: 768px){
+  .hidden-xs {
+    display: none !important;
+  }
+}
+
+@media(max-width: 960px){
+  .hidden-sm {
+    display: none !important;
+  }
+}
