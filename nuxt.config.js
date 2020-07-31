@@ -21,7 +21,7 @@ export default {
   },
 
   env: {
-    API_URL: process.env.API_URL,
+    API_URL: "http://localhost:3000/"
   },
   /*
   ** Customize the progress-bar color
@@ -31,13 +31,14 @@ export default {
   ** Global CSS
   */
   css: [
-    'swiper/dist/css/swiper.css',
+    // { src: "swiper/dist/css/swiper.css" }
+
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~plugins/vue-awesome-swiper.js', ssr: false },
+    // { src: "~/plugins/vue-swiper.js", ssr: false },
   ],
 
   // auth: {
@@ -80,7 +81,7 @@ export default {
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
-    baseURL: process.env.API_URL,
+    baseURL: "http://localhost:3000/",
     proxyHeaders: false,
     credentials: false
   },

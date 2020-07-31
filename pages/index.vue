@@ -1,7 +1,7 @@
 <template>
   <article class="container">
     <section style="padding-top: 86px">
-      <welcome-card />
+      <!-- <welcome-card /> -->
       <artist-card />
     </section>
     <section class="row">
@@ -18,7 +18,7 @@
 </template>
 
 <script>
-const WelcomeCard = () => import('~/components/WelcomeCard');
+// const WelcomeCard = () => import('~/components/WelcomeCard');
 const ArtistCard = () => import('~/components/ArtistCard');
 const ContentCard = () => import('~/components/ContentCard');
 const SideBannerApp = () => import('~/components/SideBanner/SideBannerApp');
@@ -30,7 +30,7 @@ export default {
     await store.dispatch('tracks/getData');
   },
   components: {
-    WelcomeCard,
+    // WelcomeCard,
     ArtistCard,
     ContentCard,
     SideBannerApp,

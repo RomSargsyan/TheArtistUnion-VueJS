@@ -7,8 +7,8 @@
           Discover and support the next generation of artists.
         </h2>
         <section class="welcome-card-artist-list">
-          <div v-swiper:mySwiper="swiperOption" ref="mySwiper">
-            <div class="swiper-wrapper">
+          <!-- <div v-swiper:mySwiper="swiperOption" ref="mySwiper"> -->
+            <!-- <div class="swiper-wrapper">
               <div
                 class="swiper-slide text-center"
                 v-for="(user, index) in users"
@@ -28,8 +28,8 @@
                 </nuxt-link>
               </div>
             </div>
-            <div class="swiper-pagination swiper-pagination-bullets"></div>
-          </div>
+            <div class="swiper-pagination swiper-pagination-bullets"></div> -->
+          <!-- </div> -->
         </section>
         <h2 class="welcome-card-callout">
           Do you belong up here too?
@@ -53,6 +53,7 @@ import { mapGetters } from 'vuex';
 export default {
   data() {
     return {
+      // banners: [ '~/static/images/exclusive.jpg' ],
       swiperOption: {
         loop: true,
         speed: 200,
