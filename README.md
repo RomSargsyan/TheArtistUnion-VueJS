@@ -20,3 +20,10 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+<img src="static/images/screenshots/Screenshot_1.png" width=300>   <img src="static/images/screenshots/Screenshot_4.png" width=300>
+<img src="static/images/screenshots/Screenshot_2.png" width=300>   <img src="static/images/screenshots/Screenshot_5.png" width=300>
+<img src="static/images/screenshots/Screenshot_3.png" width=300>   <img src="static/images/screenshots/Screenshot_6.png" width=300>
+
+
+
