@@ -1,36 +1,36 @@
-{
-  "name": "theartistunion",
-  "version": "1.0.0",
-  "description": "My funkadelic Nuxt.js project",
-  "author": "Roman Sargsyan",
-  "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "@nuxtjs/auth": "^4.9.1",
-    "@nuxtjs/axios": "^5.12.0",
-    "@nuxtjs/dotenv": "^1.4.1",
-    "@nuxtjs/font-awesome": "^1.0.4",
-    "axios": "^0.19.2",
-    "bootstrap": "^4.5.0",
-    "bootstrap-vue": "^2.15.0",
-    "node-sass": "^4.14.1",
-    "nuxt": "^2.13.3",
-    "sass-loader": "^9.0.2",
-    "swiper": "^6.0.4",
-    "vue-awesome-swiper": "^4.1.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  },
-  "main": "nuxt.config.js",
-  "repository": {
-    "type": "git",
-    "url": "\u0016https://github.com/19Rom94?tab=repositories"
-  },
-  "license": "ISC"
-}
+//{
+ // "name": "theartistunion",
+  //"version": "1.0.0",
+  //"description": "My funkadelic Nuxt.js project",
+  //"author": "Roman Sargsyan",
+  //"private": true,
+  //"scripts": {
+    //"dev": "nuxt",
+    //"build": "nuxt build",
+    //"start": "nuxt start",
+    //"generate": "nuxt generate"
+  //},
+  //"dependencies": {
+    //"@nuxtjs/auth": "^4.9.1",
+    //"@nuxtjs/axios": "^5.12.0",
+    //"@nuxtjs/dotenv": "^1.4.1",
+    //"@nuxtjs/font-awesome": "^1.0.4",
+    //"axios": "^0.19.2",
+    //"bootstrap": "^4.5.0",
+    //"bootstrap-vue": "^2.15.0",
+    //"node-sass": "^4.14.1",
+    //"nuxt": "^2.13.3",
+    //"sass-loader": "^9.0.2",
+    //"swiper": "^6.0.4",
+    //"vue-awesome-swiper": "^4.1.1"
+  //},
+  //"devDependencies": {
+    //"nodemon": "^2.0.4"
+  //},
+  //"main": "nuxt.config.js",
+  //"repository": {
+    //"type": "git",
+    //"url": "\u0016https://github.com/19Rom94?tab=repositories"
+  //},
+  //"license": "ISC"
+//}
